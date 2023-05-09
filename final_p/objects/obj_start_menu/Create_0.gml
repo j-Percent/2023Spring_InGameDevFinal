@@ -7,6 +7,7 @@ option[1] = "Adjust Catcher Speed";
 option[2] = "Quit";
 spacing = 50; 
 position = 0;
+global.update = true;
 
 arr_length = array_length(option);
 

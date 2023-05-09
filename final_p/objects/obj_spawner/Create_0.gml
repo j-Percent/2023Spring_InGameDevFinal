@@ -7,4 +7,5 @@ c = c_white;
 state = 0;
 first_time = true;
 global.stage_wire = false;
+win = false;
 

@@ -32,4 +32,13 @@ if(keyboard_check_pressed(vk_space)){
 	}
 }
 
+if(global.update){
+	global.update = false;
+	global.fail = false;
+	global.time_reduction_puzzle = 10;
+	global.time_reduction_catcher = 3;
+	global.puzzle = true;
+	global.timer = 300;
+	global.switcher = false;
+}
 

@@ -1,6 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+if(win){
+	win = false;
+	room_goto(rm_end);
+}
 if(global.timer<=0){
 	global.fail = true;
 	room_goto(rm_end);
@@ -44,6 +48,9 @@ switch(state){
 		break;
 		case 7:
 		instance_create_layer(0, 0, "puzzle", obj_GM);
+		break;
+		case 8:
+		win = true;
 		break;
 	    default:	
 		break;
