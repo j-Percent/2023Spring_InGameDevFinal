@@ -1,7 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-//update letter input letter = ds_list_find_value(letterlist, letter_count);
 if(ds_list_size(playerlist)>= ds_list_size(letterlist)){
 		//completing a word
 		for(var i = 0; i<ds_list_size(letterlist); i++){

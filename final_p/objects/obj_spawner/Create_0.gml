@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+randomize();
 puzzle_counter = 0;
 count = 0;
 c = c_white;

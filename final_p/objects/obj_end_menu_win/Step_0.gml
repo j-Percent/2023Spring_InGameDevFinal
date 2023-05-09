@@ -2,7 +2,8 @@
 // You can write your code in this editor
 
 //up abd down movement
-global.ending = "ORGANIZATION WINS";
+global.ending = "CONSPIRATOR WINS";
+
 up = keyboard_check_pressed(global.control_up);
 down = keyboard_check_pressed(global.control_down);
 

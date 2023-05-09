@@ -1,9 +1,11 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+randomize();
+
 if(win){
 	win = false;
-	room_goto(rm_end);
+	room_goto(rm_end_win);
 }
 if(global.timer<=0){
 	global.fail = true;
